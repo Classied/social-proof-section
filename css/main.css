@@ -17,12 +17,10 @@ body {
 /* MOBILE STYLES--> HEADER */
 
 header .content-wrapper {
-    /* outline: 3px dotted red; */
     margin: 0 auto;
 }
 
 header h1 {
-    /* outline: 3px dotted red; */
     color: hsl(300, 43%, 22%);
     padding: 30px 50px 0 50px;
     text-align: center;
@@ -30,17 +28,28 @@ header h1 {
 }
 
 header p {
-/* outline: 3px dotted red; */
-color: hsl(303, 10%, 53%);
-text-align: center;
-padding: 0 10px;
-line-height: 20px;
-font-weight: 500;
+    
+    color: hsl(303, 10%, 53%);
+    text-align: center;
+    padding: 0 10px;
+    line-height: 20px;
+    font-weight: 500;
 }
 
 
 /* MAIN SECTION  */
-main {}
+main .content-wrapper{
+    outline: 3px dotted red;
+    margin: 0 auto;
+}
+
+.ratings{
+    outline: 3px dotted green;
+}
+
+.claims{
+    outline: 3px dotted blue;
+}
 
 /* RATINGS */
 /* CLAIMS */
