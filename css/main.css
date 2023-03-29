@@ -1,24 +1,50 @@
 /* GLOBAL STYLES */
-
-body{
-    font-size: 15px;
+html {
+    background-color: white;
 }
 
-header{}
+body {
+    font-size: 15px;
+    font-family: 'League Spartan', sans-serif;
+}
 
-main{}
-
-footer{}
-
-.content-wrapper{}
+.content-wrapper {
+    width: 300px;
+    margin: 0 auto;
+    overflow: auto;
+}
 
 /* MOBILE STYLES--> HEADER */
 
+header .content-wrapper {
+    /* outline: 3px dotted red; */
+    margin: 0 auto;
+}
+
+header h1 {
+    /* outline: 3px dotted red; */
+    color: hsl(300, 43%, 22%);
+    padding: 30px 50px 0 50px;
+    text-align: center;
+    font-weight: 700;
+}
+
+header p {
+/* outline: 3px dotted red; */
+color: hsl(303, 10%, 53%);
+text-align: center;
+padding: 0 10px;
+line-height: 20px;
+font-weight: 500;
+}
 
 
 /* MAIN SECTION  */
+main {}
+
 /* RATINGS */
 /* CLAIMS */
 
 
 /* FOOTER SECTION  */
+footer {}
